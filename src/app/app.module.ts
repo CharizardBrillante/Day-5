@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoComponent } from './todo/todo.component';
 import { DoneComponent } from './done/done.component';
+import { AddTodoComponent } from './add-todo/add-todo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoComponent,
-    DoneComponent
+    DoneComponent,
+    AddTodoComponent
   ],
   imports: [
     BrowserModule,

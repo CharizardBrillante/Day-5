@@ -1,1 +1,5 @@
 <h2>Done</h2>
+<div *ngFor="let t of todoList">
+  <p>{{t.title}}</p>
+  <button (click)="restore(t.id)">Restore</button>
+</div>

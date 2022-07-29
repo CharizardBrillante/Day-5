@@ -19,7 +19,8 @@ export class TodoComponent implements OnInit {
 
   done(id:number){
     this.todoService.flagTodo(id,true).then(()=>{
-      this.todoList = this.todoList.filter(t=>t.id != id);
+      this.todoList = this.todoList.filter(t=>t.id != id)
+      console.log(this.todoList);
     })
   }
 
