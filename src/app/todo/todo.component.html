@@ -1,0 +1,5 @@
+<h2>To Do</h2>
+<div *ngFor="let t of todoList">
+  <p>{{t.title}}</p>
+  <button (click)="'done(t.id)'">Done</button>
+</div>
